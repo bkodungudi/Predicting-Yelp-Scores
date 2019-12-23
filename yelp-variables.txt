@@ -1,0 +1,101 @@
+Variables of our Yelp Data Frame
+
+Variables We Kept from Original Data Set:
+"categories"
+“city”
+“state”
+“stars”  (response variable)
+"attributes.Happy Hour"
+"attributes.Good For Groups"
+"attributes.Outdoor Seating"
+"attributes.Price Range"
+"attributes.Good for Kids"
+"attributes.Alcohol"
+"attributes.Noise Level"
+"attributes.Has TV"
+"attributes.Delivery"
+"attributes.Take-out"
+"attributes.Takes Reservations"
+"attributes.Wi-Fi"
+"attributes.Caters"
+"attributes.Drive-Thru"
+"attributes.Dogs Allowed"
+"attributes.Open 24 Hours"
+"attributes.Payment Types.cash_only"
+"attributes.Ambience.*”
+    "attributes.Ambience.romantic"
+    "attributes.Ambience.intimate”
+    "attributes.Ambience.classy”
+    "attributes.Ambience.hipster”
+    "attributes.Ambience.divey”
+    "attributes.Ambience.touristy”
+    "attributes.Ambience.trendy”
+    "attributes.Ambience.upscale”
+    "attributes.Ambience.casual”
+“attributes.Good.For.*”
+    "attributes.Good For.dessert"
+    “attributes.Good For.latenight"
+    "attributes.Good For.lunch"
+    "attributes.Good For.dinner"
+    "attributes.Good For.breakfast"
+    "attributes.Good For.brunch"
+“attributes.Parking.*”
+    "attributes.Parking.garage"
+    "attributes.Parking.validated"
+    "attributes.Parking.lot"
+    "attributes.Parking.valet"
+
+
+Variables We Removed from Original Dataset:
+"review_count" (Use review count in subsequent versions of model)
+"business_id"
+"full_address"
+"type" (all values are business)
+"name"
+“longitude”
+"latitude"
+"neighborhoods"
+"attributes.Ages Allowed"
+"attributes.Good For Dancing"
+"attributes.Smoking"
+"attributes.By Appointment Only"
+"attributes.Accepts Credit Cards"
+"attributes.Attire"
+"attributes.Coat Check"
+"attributes.Waiter Service"
+"attributes.Wheelchair Accessible"
+"attributes.BYOB"
+"attributes.Corkage"
+"attributes.BYOB/Corkage"
+"attributes.Order at Counter"
+"attributes.Payment Types.amex"
+"attributes.Payment Types.mastercard"
+"attributes.Payment Types.visa"
+"attributes.Payment Types.discover"
+"attributes.Accepts Insurance"
+"attributes.Parking.street"
+"attributes.Music.*""
+    "attributes.Music.dj"
+    "attributes.Music.background_music"
+    "attributes.Music.karaoke"
+    "attributes.Music.live"
+    "attributes.Music.video"
+    "attributes.Music.jukebox"
+    "attributes.Music.playlist"
+“attributes.Har Types Specialize In.*”
+    "attributes.Hair Types Specialized In.coloring"
+    "attributes.Hair Types Specialized In.africanamerican"
+    "attributes.Hair Types Specialized In.curly"
+    "attributes.Hair Types Specialized In.perms"
+    "attributes.Hair Types Specialized In.kids"
+    "attributes.Hair Types Specialized In.extensions"
+    "attributes.Hair Types Specialized In.asian"
+    "attributes.Hair Types Specialized In.straightperms"
+“attributes.Dietary Restrictions.*”
+    "attributes.Dietary Restrictions.dairy-free"
+    "attributes.Dietary Restrictions.gluten-free"
+    "attributes.Dietary Restrictions.vegan"
+    "attributes.Dietary Restrictions.kosher"
+    "attributes.Dietary Restrictions.halal"
+    "attributes.Dietary Restrictions.soy-free"
+    "attributes.Dietary Restrictions.vegetarian"
